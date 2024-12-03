@@ -11,7 +11,8 @@ The final plots are preliminary.
 ...
 
 # Setup 
-In the folder of the repo, open the bash or powershell and install the dependencies typing this command:
+Download the repo in a folder, open to bash and head inside the folder. 
+In the bash install the dependencies typing this command:
 '''pip install -r requirements.txt''' 
 Then open it in the IDE you prefer (i.e. VSCode), open and run the jupyter notebook "reusable_code_example.ipynb" and run all the cells.
  
