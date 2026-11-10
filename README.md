@@ -1,7 +1,7 @@
 # Latent state energy profile
 
-*Example project prepared for the workshop on writing reusable research code, Erasmus Rotterdam,
-3 December 2024.*
+*Exercises from The Carpentries workshop on reusable, reproducible research code at Erasmus
+University Rotterdam (December 2024), which I attended as a participant.*
 
 This code is meant to apply the approach from this preprint: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10401920/
 It aims at exploiting the energy profile inferred from the Langevin dynamics of a latent state to
@@ -20,7 +20,14 @@ that now seems to not be available. The final plots are preliminary.
   Langevin model with neuralflow, plot the results).
 - `scripts/poster_bar_plots_flexible_model_inference.ipynb`: summary plots of the inferred models.
 - `scripts/reusable_code-test.ipynb`: exercise notebook for the workshop.
-- `data/poster_data/`: the example spike rasters the notebooks read.
+- `data/poster_data/`: the example spike rasters the notebooks read (about 880 MB). To keep the
+  repository light they are no longer tracked, but they are still in its history. Restore them
+  with:
+
+  ```bash
+  git checkout 8e4d5c64ea927acc890b120ba20046b05509fe66 -- data/poster_data
+  git restore --staged data/poster_data
+  ```
 
 # Setup
 
